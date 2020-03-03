@@ -2,6 +2,9 @@ package com.arunveersingh.switchstatements.before;
 
 import java.time.Instant;
 
+/**
+ * @author arunveersingh9@gmail.com
+ */
 public class BusinessClass {
 
     public enum FilterType {

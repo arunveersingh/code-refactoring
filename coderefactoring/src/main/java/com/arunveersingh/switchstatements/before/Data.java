@@ -4,6 +4,9 @@ import java.time.Instant;
 
 import static com.arunveersingh.switchstatements.before.BusinessClass.*;
 
+/**
+ * @author arunveersingh9@gmail.com
+ */
 public class Data {
 
     private Instant instant = Instant.now();
