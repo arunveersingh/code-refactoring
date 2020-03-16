@@ -5,6 +5,7 @@ import java.time.Instant;
 import static com.arunveersingh.switchstatements.before.BusinessClass.*;
 
 /**
+ * Data class.
  * @author arunveersingh9@gmail.com
  */
 public class Data {

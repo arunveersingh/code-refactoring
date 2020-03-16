@@ -3,6 +3,17 @@ package com.arunveersingh.switchstatements.before;
 import java.time.Instant;
 
 /**
+ * Class using an enum to switch, multiple times.
+ * Problem with switch statements:
+ * 1. Duplication of switch code scattered across application on same keys. If a new key is introduced, all the
+ * places where switch are used need to be taken care of. This will touch the code at multiple places so needs a
+ * more rigorous testing.
+ * 2. Open and close principle violation
+ * 3. Larger chunks of code around switches to cover many scenarios makes the methods longer, generally.
+ * 4. Testing a method with multiple conditions is tough to test and often need mocking and other mechanisms to
+ * test the under consideration piece of code.
+ * 5. Sometimes switch cases indicates need of polymorphism.
+ *
  * @author arunveersingh9@gmail.com
  */
 public class BusinessClass {
@@ -78,6 +89,5 @@ public class BusinessClass {
                 System.out.println("IN - doSomethingElse");
                 break;
         }
-
     }
 }

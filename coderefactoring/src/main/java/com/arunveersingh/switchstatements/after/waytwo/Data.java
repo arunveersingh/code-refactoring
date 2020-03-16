@@ -3,6 +3,7 @@ package com.arunveersingh.switchstatements.after.waytwo;
 import java.time.Instant;
 
 /**
+ * Data object.
  * @author arunveersingh9@gmail.com
  */
 public class Data {
